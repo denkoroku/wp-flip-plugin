@@ -1,5 +1,4 @@
 <?php
-
 /**
  * Plugin Name: Kannon-block
  * Author: Cath
@@ -9,7 +8,7 @@
 function loadMyBlockFiles() {
 wp_enqueue_script(
     'my-super-unique-handle',
-    plugin_dir_url(__FILE__) . 'my-block.js',
+    plugin_dir_url(__FILE__) . 'kannon-block.js',
     array('wp-blocks', 'wp-i18n', 'wp-editor'),
     true
     );
